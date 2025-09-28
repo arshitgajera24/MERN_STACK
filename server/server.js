@@ -10,7 +10,7 @@ import { adminRoute } from './router/admin-router.js';
 const app = express();
 
 const corsOptions = {
-    origin:"http://localhost:5173",
+    origin:"https://mern-stack-frontend-c8bf.onrender.com",
     method: ["GET, POST, PUT, DELETE, PUT, PATCH"],
     credentials: true,
 }
